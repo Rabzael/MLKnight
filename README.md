@@ -36,9 +36,10 @@ Starting from this, we add a reward, i.e. a number representing how much the res
 Then I wrote a little Snake-style game following these guidelines: the states are the circumstances (literally!) in which the snake could be, the world around it. Four cells ([Von Neumann's neighborhood](https://en.wikipedia.org/wiki/Von_Neumann_neighborhood)) showing empty, walls, apple, and himself.
 When an action is taken (a move in one direction) a reward were assigned to that particular association of state and action and saved into memory so that every next move, if in the same state, were influenced by that previous experience (i.e. reward).
 
-Now it's quite the same, but dungeon-knight-flavoured and two differences:
+Now it's quite the same, but dungeon-knight-flavoured and with two differences:
 - hitting walls does not kill our hero;
 - uses a [Moore's neighborhood](https://en.wikipedia.org/wiki/Moore_neighborhood)
+
 Here, we could improve our system by adding different actions (not only moving but also, for example, picking or fighting) and cells (monsters, doors), making things more articulated.
 
 ## Next steps
