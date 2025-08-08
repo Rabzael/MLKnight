@@ -20,7 +20,7 @@ Before the last dungeon, you can make a training session, defining how many trai
 - `gcc`
 - `make`
 
-Examples:
+### Examples:
 - `mlknight -v 250`
 - `mlknight 400`
 
@@ -29,6 +29,7 @@ The first idea came to me a few years ago, while reading "Collected works of A. 
 - a state;
 - an action to take on that state;
 - a memory where to save states and actions.
+
 Every action results in another state.
 Starting from this, we add a reward, i.e. a number representing how much the result of the action (the new state) is similar to one of the expected states.
 
